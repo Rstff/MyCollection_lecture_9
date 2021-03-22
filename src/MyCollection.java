@@ -22,12 +22,12 @@ public class MyCollection<E> implements Collection<E> {
 
     @Override
     public final int size() {
-        return this.size;
+        return size;
     }
 
     @Override
     public final boolean isEmpty() {
-        return this.size == 0;
+        return size == 0;
     }
 
     @Override
